@@ -55,7 +55,7 @@ export default function Footer() {
             </nav>
 
             <p className="mx-auto max-w-lg text-xs text-gray-500">
-              This web was created to storage our love
+              Copy from https://www.falstad.com/circuit/circuitjs.html
               <span className="mt-4 block"> &copy; 2022 Trinh Cao Cuong </span>
             </p>
           </div>

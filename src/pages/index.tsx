@@ -1,13 +1,10 @@
-import Gallery from '../home/gallery';
-import Hero from '../home/hero';
-import Timer from '../home/timer';
-
 const Index = () => {
   return (
     <div className="bg-gray-900">
-      <Hero />
-      <Timer />
-      <Gallery />
+      <iframe
+        src="https://www.falstad.com/circuit/circuitjs.html"
+        className="w-screen h-screen"
+      ></iframe>
     </div>
   );
 };

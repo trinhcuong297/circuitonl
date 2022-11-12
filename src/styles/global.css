@@ -8,4 +8,7 @@
   .sidebar{
     transition:all .4s ease-in-out;
   }
+  ::-webkit-scrollbar{
+    width: 0;
+  }
 }
