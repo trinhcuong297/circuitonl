@@ -20,6 +20,10 @@ class MyDocument extends Document {
           <meta name="geo.placename" content="Hanoi" />
           <meta name="geo.position" content="21.004296;105.843723" />
           <meta name="ICBM" content="21.004296, 105.843723" />
+          <meta
+            name="keywords"
+            content="Onl circuit, online circuit, simulator circuit, free online circuit"
+          ></meta>
         </Head>
         <body>
           <Main />
