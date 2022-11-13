@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
-import Link from 'next/link';
+// import Link from 'next/link';
 // import router from 'next/router';
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
 
 export default function Navbar() {
-  const router = useRouter();
+  // const router = useRouter();
   const [usage, setUsage] = useState(false);
   const [components, setComponents] = useState(false);
   const [search, setSearch] = useState(false);
@@ -14,7 +14,7 @@ export default function Navbar() {
     <>
       <div className="fixed flex justify-center z-10 bottom-0 right-0">
         <div className="navbar bg-gray-900/75 m-2 mt-2 md:mx-2 rounded-lg">
-          <div className="navbar-start">
+          {/* <div className="navbar-start">
             <Link href="/">
               <div className="btn btn-ghost normal-case text-xl">
                 <div className="avatar">
@@ -24,7 +24,7 @@ export default function Navbar() {
                 </div>
               </div>
             </Link>
-          </div>
+          </div> */}
           <div className="navbar-center">
             <div className="dropdown dropdown-top dropdown-end dropdown-hover">
               <label
