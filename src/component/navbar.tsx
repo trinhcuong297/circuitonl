@@ -59,7 +59,7 @@ export default function Navbar() {
                   </button>
                 </li>
                 <li>
-                  <button onClick={() => setSearch(true)}>Search</button>
+                  <button onClick={() => setSearch(true)}>Music</button>
                 </li>
               </ul>
             </div>
@@ -80,10 +80,10 @@ export default function Navbar() {
           }}
           className="w-screen h-screen"
         ></button>
-        <div className="w-10/12 h-5/6 p-3 bg-gray-800 rounded-3xl absolute">
+        <div className="w-10/12 h-5/6 p-3 bg-gray-800 rounded-lg absolute">
           <iframe
             src="https://www.falstad.com/circuit/directions.html"
-            className="w-full h-full bg-gray-800 rounded-3xl"
+            className="w-full h-full bg-gray-800 rounded-lg"
           />
         </div>
       </div>
@@ -101,10 +101,10 @@ export default function Navbar() {
           }}
           className="w-screen h-screen"
         ></button>
-        <div className="w-10/12 h-5/6 bg-gray-800 rounded-3xl absolute">
+        <div className="w-10/12 h-full bg-gray-800 rounded-lg absolute">
           <iframe
-            src="https://khuenguyencreator.com/tong-hop-kien-thuc-ve-dien-tu-co-ban-cho-nguoi-moi-bat-dau/"
-            className="w-full h-full bg-gray-800 rounded-3xl"
+            src="/electronicForDummies.pdf"
+            className="w-full h-full bg-gray-800 rounded-lg"
           />
         </div>
       </div>
@@ -122,10 +122,10 @@ export default function Navbar() {
           }}
           className="w-screen h-screen"
         ></button>
-        <div className="w-10/12 h-5/6 bg-gray-800 rounded-3xl absolute">
+        <div className="w-10/12 h-5/6 bg-gray-800 rounded-lg absolute">
           <iframe
-            src="https://google.com"
-            className="w-full h-full bg-gray-800 rounded-3xl"
+            src="https://zingmp3.vn/"
+            className="w-full h-full bg-gray-800 rounded-lg"
           />
         </div>
       </div>
